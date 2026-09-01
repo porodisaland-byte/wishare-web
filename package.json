@@ -1,0 +1,36 @@
+{
+  "name": "wishare-web",
+  "version": "1.0.0",
+  "description": "WiShare Web - Progressive Web App untuk mengelola dan membagikan koneksi internet",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "echo 'Build script configured'",
+    "test": "echo 'Test script configured'"
+  },
+  "keywords": [
+    "wifi",
+    "hotspot",
+    "internet sharing",
+    "pwa"
+  ],
+  "author": "porodisaland-byte",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.3.1",
+    "qrcode": "^1.5.3",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "body-parser": "^1.20.2",
+    "uuid": "^9.0.0",
+    "sqlite3": "^5.1.6",
+    "express-validator": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
